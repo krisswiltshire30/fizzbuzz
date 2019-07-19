@@ -1,4 +1,9 @@
 def fizzbuzz(num)
-  num = 'fizz'
-  return num
+  if num % 3 == 0
+    num = "fizz"
+  else
+    return num
+  end
 end
+
+puts fizzbuzz(6)
